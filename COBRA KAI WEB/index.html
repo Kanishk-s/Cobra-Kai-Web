@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University_Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+   
+    
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <ul><li ><a href="index.html">COBRA KAI</a></li></ul>
+
+            </div>
+            
+            
+            
+            <div class="nav_links" id="navLinks">
+                <svg xmlns="http://www.w3.org/2000/svg" onclick="hideMenu()" class="iconc"  width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+
+
+                <ul>
+                    <li><a href="https://cobrakaistore.com/">SHOP</a></li>
+                    <li><a href="form.html">REGISTER NOW</a></li>
+                    <li><a href="https://discord.gg/CVu7eSYt">CONTACT US</a></li>
+                </ul>
+            </div>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" onclick="showMenu()" class="iconc"  width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            
+        </nav>
+        <div class="text-box">
+            <h1>World's Greatest Dojo</h1>
+            <p>Let us teach you the better way of life<br> Its time to face your Fears </p>
+            <a href="More.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <section class="rule">
+        <h4>STRIKE FIRST, STRIKE HARD, NO MERCY.</h4>
+    </section>
+
+    <section>
+        <video autoplay muted loop id="myVideo" width="290">
+            <source src="img/martial art vedio.mp4.mp4" type="video/mp4">
+        </video>
+        
+    </section>
+    
+
+    <section class="course">
+        <h1>EXPLORE YOURSELF AND CHOOSE THE BEST.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ullam.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <img src="img/kung fu.jpg" alt="">
+                <h3>Kung fu</h3>
+                <p>In general, kung fu/kungfu refers to the Chinese martial arts also called wushu and quanfa. In China, it refers to any study, learning, or practice that requires patience, energy, and time to complete.</p>
+                
+            </div>
+            <div class="course-col">
+                <img src="img/karate1.jpg" alt="">
+                <h3>Karate</h3>
+                <p>Karate is a martial art developed in the Ryukyu Kingdom. It developed from the indigenous Ryukyuan martial arts under the influence of Chinese martial arts, particularly Fujian White Crane.</p>
+
+            </div>
+            <div class="course-col">
+                <img src="img/jiu jutsu.jpg" alt="">
+                <h3>Jujutsu</h3>
+                <p>Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of Japanese martial arts and a system of close combat that can be used in a defensive or offensive manner to kill or subdue one or more weaponless or armed and armored opponents.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="credits">
+        <div>
+            <ul style="list-style: none;">
+                <li> This Website is made for Testing purpose <br> Developed by KANISHK SINGH</li>
+                <li>Follow me on <a href="https://www.instagram.com/___kanishk007/">Instagram</a></li>
+
+            </ul>
+            
+           
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+           navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+   
+        
+    </body>
